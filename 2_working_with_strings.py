@@ -50,14 +50,23 @@ print("Length of Declaration of:", len(declarationofindependence))
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0:4]) 
+print(chicago_mayor[4:]) 
+print(chicago_mayor[2:6]) 
+
+# the first number "0" is inclusive
+# the last number is exclusive
+
 print(len(chicago_mayor))
 print(chicago_mayor [0]) 
 print(chicago_mayor [4])
 print(chicago_mayor [-1])
+print(chicago_mayor[0:5]) 
 
 # # Indexing: Access characters by position (0-based index)
-# print("First character:", phrase[0])  # Output: P
-# print("Last character:", phrase[-1])  # Output: !
+print("First character:", phrase[0])  # Output: P
+print("Last character:", phrase[-1])  # Output: !
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
