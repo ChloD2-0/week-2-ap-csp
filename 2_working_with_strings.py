@@ -41,10 +41,11 @@ print("Is Uppercase?", phrase.isupper())  # Output: False
 # see if your name is uppercase
 print("name", name.isupper()) # true or false
 # capitalization
-print("name", name.capitalize())
+print("name", name.capitalize()) # capitalized the variable
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
-
+print("Length of phrase:", len(phrase))  # Output: 14
+declarationofindependence = "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another... a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+print("Length of Declaration of:", len(declarationofindependence)) 
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
