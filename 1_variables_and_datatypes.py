@@ -55,10 +55,12 @@ print(f"{name} is {age} years old. Hungry? {hungry}")
 # # Example (INVALID): first name = "John" ❌
 # # Example (VALID):
 # first_name = "John"
+# firstName = "john" 
 
 # # 3. Avoid using Python keywords and symbols
 # # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
 # # Example (VALID):
+# class def return ect.
 # loop_word = "test"
 
 # print("Variable naming rules followed successfully!\n")
