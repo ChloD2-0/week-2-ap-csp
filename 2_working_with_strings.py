@@ -20,13 +20,22 @@ print("Concatenated String:", message)  # Output: Hello World
 # ----------------------------------------
 
 phrase = "Python is FUN!"
+# git add .
+# git commit -m "workign with strings"
+# git push origin
 
 # # Convert all characters to lowercase
-# print("Lowercase:", phrase.lower())  # Output: python is fun!
+print("Lowercase:", phrase.lower())  # Output: python is fun!
 
 # # Convert all characters to uppercase
-# print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
 
+
+name = "Chloe"
+# upper case
+# lower case
+print("Lowercase:", name.lower())
+print("Uppercase:", name.upper())
 # # Check if all characters are uppercase
 # print("Is Uppercase?", phrase.isupper())  # Output: False
 
