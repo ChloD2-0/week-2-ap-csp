@@ -49,6 +49,11 @@ print("Length of Declaration of:", len(declarationofindependence))
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor [0]) 
+print(chicago_mayor [4])
+print(chicago_mayor [-1])
 
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
