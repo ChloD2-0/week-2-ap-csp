@@ -68,6 +68,13 @@ print(chicago_mayor[0:5])
 print("First character:", phrase[0])  # Output: P
 print("Last character:", phrase[-1])  # Output: !
 
+phrase3 = "Supercalifragilistic" 
+# uppercase it
+# slide Super out of it into a different variable
+# slice cali out of phrase 3 into its own variable
+print(phrase3[0:5])
+print(phrase3[5:9])
+print(phrase3[-1])
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
