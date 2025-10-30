@@ -10,6 +10,8 @@ num1 = -3
 num2 = 0
 num3 = 100
 print("Integers:", num1, num2, num3)
+print(num1 + num2 + num3)
+print(num1 + num2 - num3) 
 
 # 2. Floating-point numbers: Numbers with decimals
 pi = 3.14
@@ -24,6 +26,9 @@ print("Floating-point numbers:", pi, negative_float)
 # Addition
 add_result = 2 + 3
 print("Addition (2 + 3):", add_result)  # 5
+num_1= 4
+num_2 = 9
+print(num_1 - num_2) 
 
 # Subtraction
 sub_result = 5 - 2
@@ -32,6 +37,7 @@ print("Subtraction (5 - 2):", sub_result)  # 3
 # Multiplication
 mul_result = 4 * 3
 print("Multiplication (4 * 3):", mul_result)  # 12
+print(num_1 * num_2) 
 
 # Division
 div_result = 10 / 2
@@ -40,14 +46,26 @@ print("Division (10 / 2):", div_result)  # 5.0
 # Floor Division (discard decimal part)
 floor_div_result = 7 // 2
 print("Floor Division (7 // 2):", floor_div_result)  # 3
+num_1= 4
+num_2 = 9
+print(num_2 // num_1) 
+
 
 # Modulo (remainder of division)
 mod_result = 7 % 2
 print("Modulo (7 % 2):", mod_result)  # 1
+num_1= 4
+num_2 = 9
+print(num_1 % num_2) 
+
 
 # Exponentiation (power)
 exp_result = 2 ** 3
 print("Exponentiation (2 ** 3):", exp_result)  # 8
+num_1= 4
+num_2 = 9
+print(num_1 ** num_2) 
+
 
 
 # Example combining them all:
