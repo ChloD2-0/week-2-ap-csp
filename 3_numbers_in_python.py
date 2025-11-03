@@ -140,5 +140,3 @@ print(f"Floor of Pi: {floor(pi)}")
 
 
 
-
-

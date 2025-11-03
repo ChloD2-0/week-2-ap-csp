@@ -17,3 +17,8 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+word1 = input("What's your favorite hobby?")
+word2 = input("What's your favorite animal?")
+brand = (word1 + word2)
+print("There you go. You could call your beer brand" + brand + ".")
